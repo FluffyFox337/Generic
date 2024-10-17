@@ -100,7 +100,7 @@ Two options for work:
    IP and TSPU are technical means of countering threats (which, of course, is not quite legal), in consumer - working Youtube and viewing sites banned by PCN (which is also not very legal). Configurations with additional parameters in
    Classic WireGuard will not work.
    
-   Of course, no full "Ausausausruing" can be talked about here and the mechanism built in this client is not unique, modern applications for VPN have long used the method of "garbage packages". The WireGuard protocol is encrypted inside the tunnel,
+   Of course, no full "obfuscation" can be talked about here and the mechanism built in this client is not unique, modern applications for VPN have long used the method of "garbage packages". The WireGuard protocol is encrypted inside the tunnel,
    At the "handshake" stage, it is easily detected by DPI (TSPU) systems - Deep Packet Inspection - a technology to check network packets by their contents in order to regulate and filter traffic, as well as accumulate statistical data.
    AmneziaWG sends several harmless packets (Jc, Jmin, Jmax) before creating a protected tunnel whose number and size are random (configured in the profile (profile configurations)), thus making the DPI system think it is ordinary
    traffic. Of course this is not a panacea and there have been cases where all unidentified protocols are simply blocked, but on a global scale this 'now' is hardly applicable.
