@@ -47,6 +47,6 @@ Two options for work:
 	(You can put a working profile in a folder, rename it to Generic.conf and generate profiles/configurations)
 
 - Added the ability to generate WARP+ profiles, license key must be in buffer. 
-  Key can be generated for example here: [ https://t.me/warpkeygenbot ]
+  Key can be generated for example here:  [ https://t.me/warpkeygenbot ]
 
 - Due to the fact that many customers do not start at the address 162.159.193.1:2408 set by default in the generator, the generator was rewritten. The address now remains the default (Endpoint = engage.cloudflareclient.com:2408) if the input window for the endpoint (Endpoint) is not typed in. Added Administrator rights request. Changed name to Generic+++. Changed version. Changed Generic.conf.
