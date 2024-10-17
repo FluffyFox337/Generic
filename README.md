@@ -61,6 +61,6 @@ Two options for work:
    * Jmin не должно превышать Jmax.
    * Jmax должно быть не больше 1280.
    * Пример настройки Jc Jmin Lmax:
-   ** Jc = 3
+     Jc = 3
      Jmin = 10
      Jmax = 50
