@@ -79,6 +79,8 @@ Two options for work:
    Однако все меняется очень быстро и дать гарантии, что ТСПУ не научат, каким то образом, выявлять эти мусорные пакеты никто не может, благо таких клиентов становится все больше и они используют не только протокол WireGuard, да и рандомизация
    этих пакетов практически сводит на "нет" возможность классификации.
 
+- Связь со мной при необходимости: tg @Yelsoon
+
 # FAQ EN
 1. What is Jc Jmin Lmax ?
    * Jc = junk_packet_countJc (Junk packet count) — the number of packets with random data sent before the session starts.
@@ -106,3 +108,5 @@ Two options for work:
    traffic. Of course this is not a panacea and there have been cases where all unidentified protocols are simply blocked, but on a global scale this 'now' is hardly applicable.
    However, things are changing very quickly and give assurances that TESPU will not learn, somehow no one can detect these garbage bags, the benefit of such clients is becoming more and more and they use not only the WireGuard protocol, but also randomization
    These packages are almost "no" classification.
+
+- Contact me if needed: tg @Yelsoon
