@@ -6,15 +6,15 @@
 * При запуске проверяется проверяется наличие интернета - пингуется google.com. Дальше проверяется наличие в папке утилиты wgcf.exe (Если ее нет скачивается.)
 * Дальше проверяется наличие C:\Program Files\AmneziaWG\amneziawg.exe и Generic.conf, от наличия\отсутствия Generic.conf различное поведение программы.
   
-Generic.conf - (упакован в zip) это профиль. Нужен тем у кого нет вообще ни одного профиля и ВПН поднять нечем. 
-У кого не работает редактируем Endpoint либо подключаем временно любой работающий ВПН, ибо без ВПН сгенерить профили не получится!
+Generic.conf - (упакован в zip) это профиль. Нужен тем у кого нет вообще ни одного профиля и VPN поднять нечем. 
+У кого не работает редактируем Endpoint либо подключаем временно любой работающий VPN, ибо без VPN сгенерить профили не получится!
 
 Два варианта работы:
 1. (Без использования Generic.conf = в папке его нет)
-   Подключаем рабочий ВПН (не в браузере) запускаем генератор выскакивает окошко в котором можно указать свой Endpoint либо нажать ОК будет использован вариант по умолчанию 162.159.193.1:2408 - генерируются 5 аккаунтов, (один из которых 
+   Подключаем рабочий VPN (не в браузере) запускаем генератор выскакивает окошко в котором можно указать свой Endpoint либо нажать ОК будет использован вариант по умолчанию 162.159.193.1:2408 - генерируются 5 аккаунтов, (один из которых 
    переименовывается в Generic.conf, чтобы был свой, а не общественный) со значением Endpoint который выбрали и тремя случайно сгенерированными параметрами Jc Jmin Jmax.
 3. (Generic.conf в папке) Если генератор обнаруживает Generic.conf
-    то пытается поднять тоннель с этим Generic.conf (любые другие ВПН должны быть отключены иначе туннель не поднимется), дальше проверяет интернет, если все ок генерирует 5 конфигураций. (Можно закинуть точно работающий профиль в папку, 
+    то пытается поднять тоннель с этим Generic.conf (любые другие VPN должны быть отключены иначе туннель не поднимется), дальше проверяет интернет, если все ок генерирует 5 конфигураций. (Можно закинуть точно работающий профиль в папку, 
     переименовать в Generic.conf и сгенерить профили (конфигурации))
 5. Добавлена возможность генерации лицензионных профилей, ключ лицензии должен быть в буфере. Ключ можно сгенерировать например здесь: [ https://t.me/warpkeygenbot ]
 
@@ -29,12 +29,12 @@ The essence of the work is:
 * When starting up, the internet is checked - google.com is pinged. Next check if the folder has wgcf.exe (If it does not download.)
 * Next, the presence of C:\Program Files\AmneziaWG\amneziawg.exe and Generic.conf is checked, if there is no Generic.conf different behavior of the program.
   
-Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles at all and HPP doesn’t have anything to raise. 
-If you do not work edit the Endpoint or connect any temporarily working VMI, because without VMI to generate profiles will not work!
+Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles at all and VPN doesn’t have anything to raise. 
+If you do not work edit the Endpoint or connect any temporarily working VPN, because without VPN to generate profiles will not work!
 
 Two options for work:
 1. (Without using Generic.conf = the folder is empty)
-   By connecting the working WPO (not in the browser) running the generator pops up a window where you can specify your Endpoint or press OK will be used default option 162.159.193.1:2408 - generated 5 accounts, (one of which 
+   By connecting the working VPN (not in the browser) running the generator pops up a window where you can specify your Endpoint or press OK will be used default option 162.159.193.1:2408 - generated 5 accounts, (one of which 
    is renamed to Generic.conf, so it’s its own, not a public one) with the Endpoint value you chose and three randomly generated Jc Jmin Jmax parameters.
 3. (Generic.conf in folder) If the generator detects Generic.conf
     Tries to raise the tunnel with this Generic.conf (any other WPS must be disabled otherwise the tunnel will not rise), then checks the internet if all ok generates 5 configurations. (You can put a precisely working profile in the folder, 
