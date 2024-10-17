@@ -27,7 +27,7 @@ Generate WARP profile
 The essence of the work is: 
 * Create a folder somewhere, drop in the generator Generic+++. exe and Generic.conf (optional)
 * When starting up, the internet is checked - google.com is pinged. Next check if the folder has wgcf.exe (If it does not download.)
-* Next, the presence of (C:\Program Files\AmneziaWG\amneziawg.exe) and (Generic.conf) is checked, if there is no Generic.conf different behavior of the program.
+* Next, the presence of C:\Program Files\AmneziaWG\amneziawg.exe and Generic.conf is checked, if there is no Generic.conf different behavior of the program.
   
 Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles at all and HPP doesn’t have anything to raise. 
 If you do not work edit the Endpoint or connect any temporarily working VMI, because without VMI to generate profiles will not work!
