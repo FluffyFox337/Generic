@@ -11,11 +11,11 @@ Generic.conf - (упакован в zip) это профиль. Нужен те�
 
 Два варианта работы:
 1. Без использования Generic.conf = в папке его нет
-   * Подключаем рабочий VPN (не в браузере) 
-   * Запускаем генератор выскакивает окошко в котором можно указать свой Endpoint либо нажать ОК будет использован вариант (по умолчанию engage.cloudflareclient.com:2408)
+   * Подключаем рабочий VPN (не в браузере).
+   * Запускаем генератор выскакивает окошко в котором можно указать свой Endpoint либо нажать ОК будет использован вариант (по умолчанию engage.cloudflareclient.com:2408).
    * Генерируются 5 аккаунтов, (один из которых переименовывается в Generic.conf, чтобы был свой, а не общественный) со значением Endpoint который выбрали и тремя случайно сгенерированными параметрами Jc Jmin Jmax.
 3. С использованием Generic.conf = в папке он ЕСТЬ
-   * Если генератор обнаруживает Generic.conf, то пытается поднять тоннель с этим Generic.conf (любые другие VPN должны быть отключены иначе туннель не поднимется)
+   * Если генератор обнаруживает Generic.conf, то пытается поднять тоннель с этим Generic.conf (любые другие VPN должны быть отключены иначе туннель не поднимется).
    * Дальше проверяет интернет, если все ок генерирует 5 конфигураций.
 	(Можно закинуть точно работающий профиль в папку, переименовать в Generic.conf и сгенерить профили/конфигурации)
 
@@ -29,8 +29,8 @@ Generic.conf - (упакован в zip) это профиль. Нужен те�
 Generate WARP/WARP+ profiles
 
 The essence of the work is: 
-* Create a folder somewhere, drop in the generator Generic+++. exe and Generic.conf (optional)
-* When starting up, the internet is checked - google.com is pinged. Next check if the folder has wgcf.exe (If it does not download.)
+* Create a folder somewhere, drop in the generator Generic+++. exe and Generic.conf (optional).
+* When starting up, the internet is checked - google.com is pinged. Next check if the folder has wgcf.exe (If it does not download).
 * Next, the presence of C:\Program Files\AmneziaWG\amneziawg.exe and Generic.conf is checked, if there is no Generic.conf different behavior of the program.
   
 Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles and the VPN has nothing to raise. 
@@ -38,8 +38,8 @@ If you don’t have a working Endpoint, edit it or connect any VPN temporarily, 
 
 Two options for work:
 1. Without using Generic.conf = the folder does not contain it
-   * Connect to a working VPN (not in a browser) 
-   * When running the generator pops up a window in which you can specify your Endpoint or press OK option will be used (default is engage.cloudflareclient.com:2408)
+   * Connect to a working VPN (not in a browser).
+   * When running the generator pops up a window in which you can specify your Endpoint or press OK option will be used (default is engage.cloudflareclient.com:2408).
    * Generate 5 accounts (one of which is renamed to Generic.conf, so that it is yours and not public) with the Endpoint value you have chosen and three randomly generated parameters Jc Jmin Jmax.
 3. Using Generic.conf = in the folder it IS
    * If the generator detects Generic.conf, it tries to raise the tunnel with this Generic.conf (any other VPN must be disabled otherwise the tunnel will not rise)
@@ -57,11 +57,10 @@ Two options for work:
    * JMin = junk_packet_min_sizeJMin (Junk packet minimum size) - минимальный размер пакета для Junk packet.
      То есть все случайно сгенерированные пакеты будут иметь размер не меньше Jmin.JMax = junk_packet_max_sizeJMax (максимальный размер мусорного пакета) — максимальный размер мусорных пакетов.
 2. Какие значения указывать для Jc Jmin Lmax?
-   * Параметры J вы можете изменять как вам захочется, но Jc должно быть от 1 до 128. (Jc - количество мусорных пакетов, много не пишите (3-10).)
-   * Jmin не должно превышать Jmax,
+   * Параметры J вы можете изменять как вам захочется, но Jc должно быть от 1 до 128. (много не пишите, хватит 3-10).
+   * Jmin не должно превышать Jmax.
    * Jmax должно быть не больше 1280.
-
-Пример настройки Jc Jmin Lmax:
-- Jc = 3
-- Jmin = 10
-- Jmax = 50
+   * Пример настройки Jc Jmin Lmax:
+   ** Jc = 3
+     Jmin = 10
+     Jmax = 50
