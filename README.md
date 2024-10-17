@@ -32,16 +32,17 @@ The essence of the work is:
 * When starting up, the internet is checked - google.com is pinged. Next check if the folder has wgcf.exe (If it does not download.)
 * Next, the presence of C:\Program Files\AmneziaWG\amneziawg.exe and Generic.conf is checked, if there is no Generic.conf different behavior of the program.
   
-Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles at all and VPN doesn’t have anything to raise. 
-If you do not work edit the Endpoint or connect any temporarily working VPN, because without VPN to generate profiles will not work!
+Generic.conf - (packed in zip) is a profile. It needs someone who doesn’t have any profiles and the VPN has nothing to raise. 
+If you don’t have a working Endpoint, edit it or connect any VPN temporarily, because without a VPN you can’t get profiles!
 
 Two options for work:
-1. (Without using Generic.conf = the folder is empty)
-   By connecting the working VPN (not in the browser) running the generator pops up a window where you can specify your Endpoint or press OK will be used default option 162.159.193.1:2408 - generated 5 accounts, (one of which 
-   is renamed to Generic.conf, so it’s its own, not a public one) with the Endpoint value you chose and three randomly generated Jc Jmin Jmax parameters.
-3. (Generic.conf in folder) If the generator detects Generic.conf
-    Tries to raise the tunnel with this Generic.conf (any other WPS must be disabled otherwise the tunnel will not rise), then checks the internet if all ok generates 5 configurations. (You can put a precisely working profile in the folder, 
-    rename to Generic.conf and generate profiles (configuration))
-5. Added the ability to generate license profiles, license key must be in buffer. Key can be generated for example here: [ https://t. me/warpkeygenbot ]
+1. Without using Generic.conf = the folder does not contain it
+   * Connect to a working VPN (not in a browser) 
+   * When running the generator pops up a window in which you can specify your Endpoint or press OK option will be used (default is engage.cloudflareclient.com:2408)
+   * Generate 5 accounts (one of which is renamed to Generic.conf, so that it is yours and not public) with the Endpoint value you have chosen and three randomly generated parameters Jc Jmin Jmax.
+3. Using Generic.conf = in the folder it IS
+   * If the generator detects Generic.conf, it tries to raise the tunnel with this Generic.conf (any other VPN must be disabled otherwise the tunnel will not rise)
+   * Next checks if all ok generates 5 configurations.
+	(You can put a working profile in a folder, rename it to Generic.conf and generate profiles/configurations)
 
 Due to the fact that many customers do not start at the address 162.159.193.1:2408 set by default in the generator, the generator was rewritten. The address now remains the default (Endpoint = engage.cloudflareclient.com:2408) if the input window for the endpoint (Endpoint) is not typed in. Added Administrator rights request. Changed name to Generic+++. Changed version. Changed Generic.conf.
