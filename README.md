@@ -52,7 +52,7 @@ Two options for work:
 - Due to the fact that many customers do not start at the address 162.159.193.1:2408 set by default in the generator, the generator was rewritten. The address now remains the default (Endpoint = engage.cloudflareclient.com:2408) if the input window for the endpoint (Endpoint) is not typed in. Added Administrator rights request. Changed name to Generic+++. Changed version. Changed Generic.conf.
 
 # FAQ RU
-1. Что такое [Jc] [Jmin] [Lmax]?
+1. Что такое Jc Jmin Lmax ?
    * Jc = junk_packet_countJc (Junk packet count) — количество пакетов со случайными данными, отправленных до начала сеанса.
    * JMin = junk_packet_min_sizeJMin (Junk packet minimum size) - минимальный размер пакета для Junk packet.
      То есть все случайно сгенерированные пакеты будут иметь размер не меньше Jmin.JMax = junk_packet_max_sizeJMax (максимальный размер мусорного пакета) — максимальный размер мусорных пакетов.
