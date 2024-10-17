@@ -94,9 +94,15 @@ Two options for work:
       * Jmax = 50
 
 3. Brief theory:
-AmneziaWG (AmneziaWireGuard) is a forking of the usual WireGuard-Go, with the addition of blocking and protocol detection. One of the key features of AmneziaWG is reverse compatibility with WireGuard. This means that when using AmneziaWG, if no special configuration is specified for "bypass" protocols, it will act as standard WireGuard. In practical application, this gives bypass of existing blocks on IP and TSPU - technical means to counter threats (which, of course, is not quite legal), in consumer - working Youtube and viewing sites banned by PKN (which also not very legal). Configurations with additional parameters in classic WireGuard will not work.
-
-Of course, no full "Ausausausesing" can be talked about here and the mechanism built in this client is not unique, modern applications for VPN have long used the method of "junk packets". The WireGuard protocol inside the tunnel is encrypted, but in the "handshake" phase it is easily detected by DPI(TSPU) systems - Deep Packet Inspection - a technology to check network packets for their content in order to regulate and filter traffic and store statistical data.
-
-AmneziaWG before creating a protected tunnel sends several harmless packets (Jc, Jmin, Jmax) whose number and size are random (configured in the profile (profile configurations)), thus making the DPI system think that it is normal traffic. Of course this is not a panacea and there have been cases where all unidentified protocols are simply blocked, but on a global scale this 'now' is hardly applicable.
-However, things are changing very quickly and give guarantees that TSPU will not learn, somehow no one can detect these garbage bags, the benefit of such clients is becoming more and more and they use not only the WireGuard protocol, and randomizing these packages practically reduces to "no" classification capability.
+   
+   AmneziaWG (AmneziaWireGuard) is a fork of the usual WireGuard-Go, with the addition of blocking bypass and protocol detection. One of the key features of AmneziaWG is reverse compatibility with WireGuard. This
+   means that when using AmneziaWG, if the configuration does not specify special parameters for "Bypass" protocols, it will act as standard WireGuard. In practical application, this bypasses the existing
+   IP and TSPU are technical means of countering threats (which, of course, is not quite legal), in consumer - working Youtube and viewing sites banned by PCN (which is also not very legal). Configurations with additional parameters in
+   Classic WireGuard will not work.
+   
+   Of course, no full "Ausausausruing" can be talked about here and the mechanism built in this client is not unique, modern applications for VPN have long used the method of "garbage packages". The WireGuard protocol is encrypted inside the tunnel,
+   At the "handshake" stage, it is easily detected by DPI (TSPU) systems - Deep Packet Inspection - a technology to check network packets by their contents in order to regulate and filter traffic, as well as accumulate statistical data.
+   AmneziaWG sends several harmless packets (Jc, Jmin, Jmax) before creating a protected tunnel whose number and size are random (configured in the profile (profile configurations)), thus making the DPI system think it is ordinary
+   traffic. Of course this is not a panacea and there have been cases where all unidentified protocols are simply blocked, but on a global scale this 'now' is hardly applicable.
+   However, things are changing very quickly and give assurances that TESPU will not learn, somehow no one can detect these garbage bags, the benefit of such clients is becoming more and more and they use not only the WireGuard protocol, but also randomization
+   These packages are almost "no" classification.
