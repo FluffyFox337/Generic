@@ -64,3 +64,17 @@ Two options for work:
       * Jc = 3
       * Jmin = 10
       * Jmax = 50
+
+# FAQ EN
+1. What is Jc Jmin Lmax ?
+   * Jc = junk_packet_countJc (Junk packet count) — the number of packets with random data sent before the session starts.
+   * JMin = junk_packet_min_sizeJMin (Junk packet minimum size) - The minimum package size for a Junk packet.
+     That is, all randomly generated packets will have a size of at least Jmin.JMax = junk_packet_max_sizeJMax (maximum size of the garbage packet) - the maximum size of the garbage packets.
+2. What values to specify for Jc Jmin Lmax?
+   * Parameters J you can change as you like, but Jc should be from 1 to 128. (don’t write much, 3-10 is enough).
+   * Jmin must not exceed Jmax.
+   * Jmax should be no more than 1280.
+   * Example of setting up a JC Jmin Lmax:
+      * Jc = 3
+      * Jmin = 10
+      * Jmax = 50
